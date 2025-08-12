@@ -1,0 +1,9 @@
+{
+  "name": "pw-codespaces",
+  "private": true,
+  "scripts": {
+    "test": "npx playwright test",
+    "ui": "npx playwright test --ui --port 9323",
+    "codegen": "npx playwright codegen https://playwright.dev"
+  }
+}
