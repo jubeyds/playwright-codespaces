@@ -1,0 +1,15 @@
+{
+  "name": "Playwright in Codespaces",
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "20"
+    }
+  },
+  "postCreateCommand": "npm init -y && npx -y playwright@latest install --with-deps",
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-playwright.playwright"]
+    }
+  },
+  "forwardPorts": [9323]
+}
